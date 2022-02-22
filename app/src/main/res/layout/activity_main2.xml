@@ -120,17 +120,24 @@
         android:text="https://meet.google.com/nsj-ojwi-xpp"
         android:textColor="#0C0C0C"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="597dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="338dp"
         android:layout_height="41dp"
+        android:layout_marginBottom="36dp"
         android:background="#3F51B5"
         android:text="Gửi"
         android:textColor="#0C0C0C"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="651dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
