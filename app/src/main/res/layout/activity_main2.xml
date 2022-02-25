@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="301dp"
-        android:layout_height="65dp"
+        android:layout_height="wrap_content"
         android:text="USB Bluetooth Music Receiver HJX-001- Biến loa thường thành loa bluetooth"
         android:textColor="@color/black"
         android:textSize="18sp"
@@ -43,10 +43,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.244" />
+        app:layout_constraintVertical_bias="0.206" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -58,20 +57,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/star_1" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Thêm Hình Ảnh"
-        android:textColor="#121111"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.675"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.483" />
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -83,26 +68,13 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348" />
-
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="68dp"
-        android:layout_height="64dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
-        app:layout_constraintHorizontal_bias="0.662"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481"
-        app:srcCompat="@drawable/camera" />
+        app:layout_constraintVertical_bias="0.308" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="347dp"
         android:layout_height="224dp"
-        android:background="@drawable/backgroundtext"
+        android:background="@drawable/textfileac2"
         android:padding="20dp"
         android:text="Hãy chia sẽ những đều mà bạn thích về sản phẩm"
         android:textSize="18sp"
@@ -111,7 +83,7 @@
         app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.802" />
+        app:layout_constraintVertical_bias="0.773" />
 
     <TextView
         android:id="@+id/textView6"
@@ -131,15 +103,35 @@
         android:id="@+id/button2"
         android:layout_width="338dp"
         android:layout_height="41dp"
-        android:layout_marginBottom="36dp"
         android:background="#3F51B5"
         android:text="Gửi"
         android:textColor="#0C0C0C"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.406" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="345dp"
+        android:layout_height="71dp"
+        android:background="@drawable/buttomac2"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/camera"
+        android:paddingLeft="80dp"
+        android:paddingRight="50dp"
+        android:text="Thêm hình ảnh"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451" />
 </androidx.constraintlayout.widget.ConstraintLayout>
